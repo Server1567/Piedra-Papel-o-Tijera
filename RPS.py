@@ -4,12 +4,7 @@
 from random import randint
 
 # Variables globales
-f1 = None
-f2 = None
-f3 = None
-F1 = None
-F2 = None
-F3 = None
+f1, f2, f3, F1, F2, F3 = None
 
 print '                                                             '
 print '------------------PIEDRA, PAPEL O TIJERA---------------------'
@@ -61,12 +56,7 @@ def random():
 random()
 
 def finish():
-	global f1
-	global f2
-	global f3
-	global F1
-	global F2
-	global F3
+	global f1, f2, f3, F1, F2, F3
 
 	if f1 == "Piedra" and F1 == "Piedra":
 		print "************ TIE *****************"
